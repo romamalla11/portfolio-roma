@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 36px;
+  line-height: 100%;
+  font-weight: 600;
+  color: rgb(95, 88, 88);
+}
+h3 {
+  font-size: 24px;
+  line-height: 100%;
+  font-weight: 500;
+  margin-top: 9px;
+  color: rgb(95, 88, 88);
+}
+p {
+  font-size: 12px;
+  line-height: 130%;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.nav {
+  height: 100px;
+  width: 100%;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.main {
+  height: calc(100vh - 200px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer {
+  height: 100px;
+  width: 100%;
+
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.left {
+  width: 100px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  width: 585px;
+  height: 201px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right {
+  width: 100px;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.active {
+  background-color: black !important;
+}
+
+.inactive {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 3px solid black;
+  background: transparent;
+}
+
+.profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 60%;
+
+  background-image: url("../image/sel.jpg");
+  background-size: cover;
+}
+
+.content {
+  height: 100%;
+  width: 300px;
+}
